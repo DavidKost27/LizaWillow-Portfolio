@@ -3,8 +3,10 @@ import './App.scss';
 import TopBar from './components/TopBar';
 import Links from './components/Links';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 
+import HeroImage from './assets/images/hero-img.jpg';
 // Title - Portfolio
 import Portfolio from './assets/icons/title-portfolio.png';
 // Imgaes
@@ -27,17 +29,20 @@ import Adventurer from './assets/images/adventurer.jpg';
 function App() {
   return (
     <div className="App">
+     {/* TopBar Sectopn */}
      <TopBar/>
+     {/*  */}
 
-      <div className="hero-container">
+
+      <div className="hero-container" id="hero-id">
+        <img className="hero-img" src={HeroImage} alt="" />
         <Links/>
-
         <img className="title-portfolio" src={Portfolio} alt="" />
       </div>
 
-      <div className="portfolio">
-      
-      
+
+      {/* Portfolio Section */}
+      <div className="portfolio" id="portfolio-id">
       <img src={Deer} alt="" />
       <img src={CatInSpace} alt="" />
       <img src={SleepyMouse} alt="" />
@@ -52,8 +57,18 @@ function App() {
       <img src={SirTwitch} alt="" />
       <img src={FoolishMonster} alt="" />
       </div>
+      {/*  */}
 
+
+     {/* Contact Section */}
+     <Contact/>
+     {/*  */}
+
+
+     {/* Footer Section */}
      <Footer/>
+     {/*  */}
+
     </div>
   );
 }

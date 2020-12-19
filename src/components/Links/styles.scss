@@ -4,25 +4,91 @@
   align-items: center;
 
   a {
-    width: 200px;
+    width: 50vw;
     padding: 5px;
     display: block;
-    margin: 10px 0;
+    margin: 12px 0;
     border: 1px solid rgb(87, 87, 87);
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    font-family: "Courgette", cursive;
-    color: rgb(0, 0, 0);
-    background-color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Concert One", cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 136, 211);
+    position: relative;
   }
 
   &__patreon {
+    &__icon {
+      width: 20px;
+      position: absolute;
+      left: 15%;
+    }
   }
 
   &__instagram {
+    &__icon {
+      width: 20px;
+      position: absolute;
+      left: 14%;
+    }
   }
 
   &__portfolio {
+    &__icon {
+      width: 20px;
+      position: absolute;
+      left: 14%;
+    }
+  }
+
+  &__contact {
+    &__icon {
+      width: 20px;
+      position: absolute;
+      left: 14%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  .links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    a {
+      width: 22vw;
+      margin: 20px;
+    }
+
+    &__patreon {
+      &__icon {
+        width: 25px;
+      }
+    }
+
+    &__instagram {
+      &__icon {
+        width: 25px;
+      }
+    }
+
+    &__portfolio {
+      &__icon {
+        width: 25px;
+      }
+    }
+
+    &__contact {
+      &__icon {
+        width: 25px;
+      }
+    }
   }
 }

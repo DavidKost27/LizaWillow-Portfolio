@@ -1,6 +1,51 @@
 .footer-container {
   width: 100vw;
-  height: 30vh;
+  height: 35vh;
   box-sizing: border-box;
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(39, 111, 160);
+  text-align: center;
+  font-size: 18px;
+  padding-top: 35px;
+  font-family: "Russo One", sans-serif;
+  .home-link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: rgb(56, 136, 211);
+    padding: 5px 30vw;
+    -webkit-box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.44);
+    letter-spacing: 2px;
+  }
+  a {
+    text-decoration: none;
+    color: rgba(33, 23, 180, 0.692);
+  }
+  .contribution-designer {
+    padding-top: 30px;
+  }
+  .contribution-creator {
+    padding-top: 20px;
+  }
+  .contribution-flaticon {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    font-size: 25px;
+    .home-link {
+    }
+    a {
+    }
+    .contribution-designer {
+    }
+    .contribution-creator {
+    }
+    .contribution-flaticon {
+    }
+  }
 }

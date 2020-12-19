@@ -1,0 +1,18 @@
+.contact-container {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  box-sizing: border-box;
+  height: 5vh;
+  background-color: rgb(134, 102, 185);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px black solid;
+  a {
+    text-decoration: none;
+    color: rgb(61, 20, 173);
+    padding: 0 7px;
+  }
+}

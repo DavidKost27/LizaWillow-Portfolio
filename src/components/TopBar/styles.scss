@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color: rgb(50, 144, 207);
   position: fixed;
+  z-index: 5;
   -webkit-box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.44);
   box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.44);
   .logo-dino {
