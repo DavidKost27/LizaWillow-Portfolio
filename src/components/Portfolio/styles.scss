@@ -1,0 +1,85 @@
+.portfolio {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(13, 1fr);
+  grid-template-areas:
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6"
+    "item7"
+    "item8"
+    "item9"
+    "item10"
+    "item11"
+    "item12"
+    "item13";
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__item1 {
+    grid-area: item1;
+  }
+  &__item2 {
+    grid-area: item2;
+  }
+  &__item3 {
+    grid-area: item3;
+  }
+  &__item4 {
+    grid-area: item4;
+  }
+  &__item5 {
+    grid-area: item5;
+  }
+  &__item6 {
+    grid-area: item6;
+  }
+  &__item7 {
+    grid-area: item7;
+  }
+  &__item8 {
+    grid-area: item8;
+  }
+  &__item9 {
+    grid-area: item9;
+  }
+  &__item10 {
+    grid-area: item10;
+  }
+  &__item11 {
+    grid-area: item11;
+  }
+  &__item12 {
+    grid-area: item12;
+  }
+  &__item13 {
+    grid-area: item13;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  .portfolio {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "item1 item1 item2 item3"
+      "item1 item1 item4 item5"
+      "item8 item7 item6 item6"
+      "item10 item9 item6 item6"
+      "item11 item11 item12 item12"
+      "item11 item11 item12 item12"
+      "item15 item13 item13 item17"
+      "item16 item13 item13 item14";
+  }
+}

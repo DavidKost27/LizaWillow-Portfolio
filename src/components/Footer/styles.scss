@@ -19,18 +19,20 @@
     box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.44);
     letter-spacing: 2px;
   }
-  a {
-    text-decoration: none;
-    color: rgba(33, 23, 180, 0.692);
-  }
-  .contribution-designer {
-    padding-top: 30px;
-  }
-  .contribution-creator {
-    padding-top: 20px;
-  }
-  .contribution-flaticon {
-    padding-top: 20px;
+  .contribution-wrap {
+    a {
+      text-decoration: none;
+      color: rgba(33, 23, 180, 0.692);
+    }
+    .contribution-designer {
+      padding-top: 30px;
+    }
+    .contribution-creator {
+      padding-top: 20px;
+    }
+    .contribution-flaticon {
+      padding-top: 20px;
+    }
   }
 }
 
@@ -39,13 +41,41 @@
     font-size: 25px;
     .home-link {
     }
-    a {
+    .contribution-wrap {
+      a {
+      }
+      .contribution-designer {
+      }
+      .contribution-creator {
+      }
+      .contribution-flaticon {
+      }
     }
-    .contribution-designer {
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  .footer-container {
+    font-size: 25px;
+    .home-link {
+      padding: 5px 10vw;
     }
-    .contribution-creator {
-    }
-    .contribution-flaticon {
+    .contribution-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+      a {
+      }
+      .contribution {
+        padding: 30px;
+      }
+      .contribution-designer {
+      }
+      .contribution-creator {
+      }
+      .contribution-flaticon {
+      }
     }
   }
 }

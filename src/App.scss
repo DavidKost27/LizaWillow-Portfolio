@@ -26,18 +26,6 @@
       margin-left: -5px;
     }
   }
-
-  .portfolio {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    img {
-      box-sizing: border-box;
-      width: auto;
-      height: auto;
-    }
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -50,10 +38,6 @@
       .title-portfolio {
       }
     }
-    .portfolio {
-      img {
-      }
-    }
   }
 }
 
@@ -62,13 +46,9 @@
     font-size: 25px;
     .hero-container {
       .hero-img {
-        width: 42vw;
+        width: 30vw;
       }
       .title-portfolio {
-      }
-    }
-    .portfolio {
-      img {
       }
     }
   }
