@@ -43,19 +43,19 @@ function App() {
 
       {/* Portfolio Section */}
       <div className="portfolio" id="portfolio-id">
-      <img src={Deer} alt="" />
-      <img src={CatInSpace} alt="" />
-      <img src={SleepyMouse} alt="" />
-      <img src={Adventurer} alt="" />
-      <img src={PineTree} alt="" />
-      <img src={Mushroom} alt="" />
-      <img src={GirlAndGoose} alt="" />
-      <img src={GreedyOctupus} alt="" />
-      <img src={DinoBoy} alt="" />
-      <img src={DinoGirl} alt="" />
-      <img src={HeroMouse} alt="" />
-      <img src={SirTwitch} alt="" />
-      <img src={FoolishMonster} alt="" />
+      <img className="portfolio__item--1" src={Deer} alt="" />
+      <img className="portfolio__item--2" src={CatInSpace} alt="" />
+      <img className="portfolio__item--3" src={SleepyMouse} alt="" />
+      <img className="portfolio__item--4" src={Adventurer} alt="" />
+      <img className="portfolio__item--5" src={PineTree} alt="" />
+      <img className="portfolio__item--6" src={Mushroom} alt="" />
+      <img className="portfolio__item--7" src={GirlAndGoose} alt="" />
+      <img className="portfolio__item--8" src={GreedyOctupus} alt="" />
+      <img className="portfolio__item--9" src={DinoBoy} alt="" />
+      <img className="portfolio__item--10" src={DinoGirl} alt="" />
+      <img className="portfolio__item--11" src={HeroMouse} alt="" />
+      <img className="portfolio__item--12" src={SirTwitch} alt="" />
+      <img className="portfolio__item--13" src={FoolishMonster} alt="" />
       </div>
       {/*  */}
 
