@@ -8,8 +8,6 @@ import Contact from './components/Contact';
 
 
 import HeroImage from './assets/images/hero-img.jpg';
-// Title - Portfolio
-import PortfolioLogo from './assets/icons/title-portfolio.png';
 
 
 function App() {
@@ -20,15 +18,14 @@ function App() {
      {/*  */}
 
 
-      <div className="hero-container" id="hero-id">
-        <img className="hero-img" src={HeroImage} alt="" />
-        <Links/>
-        <img className="title-portfolio" src={PortfolioLogo} alt="" />
-      </div>
-
      {/* Portfolio Section */}
      <Portfolio/>
      {/*  */}
+
+      <div className="hero-container" id="hero-id">
+        <img className="hero-img" src={HeroImage} alt="" />
+        <Links/>
+        </div>
 
      {/* Contact Section */}
      <Contact/>

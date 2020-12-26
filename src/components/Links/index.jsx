@@ -5,10 +5,9 @@ import Instagram from '../../assets/icons/instagram.png';
 import Portfolio from '../../assets/icons/suitcase.png';
 import Contact from '../../assets/icons/contact.png';
 
-
 export default function Links() {
     return (
-<div className="links-container">
+<div className="links-container" id="links">
  <a href="" className="links-container__patreon">
       <img className="links-container__patreon__icon" src={Patreon} alt="" />Patreon</a>
 

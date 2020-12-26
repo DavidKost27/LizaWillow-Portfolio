@@ -18,6 +18,13 @@
     color: rgb(255, 255, 255);
     background-color: rgb(56, 136, 211);
     position: relative;
+    z-index: 1;
+    -webkit-box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.32);
+    box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.32);
+  }
+
+  a:hover {
+    background-color: rgba(56, 136, 211, 0.829);
   }
 
   &__patreon {
@@ -29,6 +36,8 @@
   }
 
   &__instagram {
+    display: flex;
+    align-items: center;
     &__icon {
       width: 20px;
       position: absolute;

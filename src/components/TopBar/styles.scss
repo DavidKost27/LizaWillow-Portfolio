@@ -1,14 +1,40 @@
 .top-bar-container {
   width: 100vw;
-  height: 7vh;
+  height: 62px;
+  padding: 0 10px;
   box-sizing: border-box;
-  background-color: rgb(50, 144, 207);
   position: fixed;
+  display: flex;
+  align-items: center;
   z-index: 5;
+  background-color: rgb(255, 255, 255);
   -webkit-box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.44);
   box-shadow: -1px 0px 6px 1px rgba(0, 0, 0, 0.44);
   .logo-dino {
-    height: 7vh;
+    height: 61px;
     width: auto;
+    margin-right: auto;
+  }
+  .menu {
+    position: absolute;
+    background-color: #ffffff;
+    top: 61px;
+    left: 100vw;
+    width: 100vw;
+    height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 10px 20px;
+      margin: 10px 0;
+    }
+  }
+  .open {
+    left: 0vw;
   }
 }
